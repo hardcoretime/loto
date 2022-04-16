@@ -42,8 +42,14 @@ Options:
   -c, --computer [0|1|2]  Minimum count of computers is 0. By default: 0.
   --help                  Show this message and exit.
 ```
+
 ## Usage
 Example with 2 players: User and Computer:
 ```shell
 ./loto.py --player 1 --computer 1
+```
+
+## Tests
+```shell
+python -m pytest --verbose tests/
 ```
